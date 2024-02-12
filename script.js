@@ -64,3 +64,14 @@ counter3DecrimentBtn.addEventListener('click', function(){
     counter3value -= 1;
     counter3Display.innerText = counter3value;
 })
+
+resetBtn.addEventListener('click', function(){
+
+    counter1Display.innerText = 0;
+    counter2Display.innerText = 0;
+    counter3Display.innerText = 0;
+
+    counter1value = 0;
+    counter2value = 0;
+    counter3value = 0;
+})
